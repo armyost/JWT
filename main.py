@@ -41,7 +41,7 @@ if __name__ == '__main__':
 # POST방식 호출 테스트('Content-Type': 'application/x-www-form-urlencoded')
     login_url  = 'http://' # 접속할 사이트주소 또는 IP주소를 입력한다
     check_url='http://' # 접속이 성공적으로 수행되면 유효한지 체크해볼 사이트주소 또는 IP주소를 입력한다
-    data = "client_id=JWT Open Access JPKIM&grant_type=password&client_secret=______&scope=openid&username=jpkim@kochamdev.com&password=a12345!@#"          # 요청할 데이터
+    data = "client_id=JWT Open Access JPKIM&grant_type=password&client_secret=______&scope=openid&username=jpkim@armyost.com&password=a12345!@#"          # 요청할 데이터
     #client_secret 을 발행받은 secret에 맞추어 입력하세요.
     response = web_request(method_name='POST', url=login_url, dict_data=data)
 
